@@ -1,0 +1,119 @@
+.inter-plain-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.josefin-sans-headers {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141B27;
+    text-align: center;
+}
+
+img {
+    width: 80px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+textarea {
+    resize: none;
+}
+
+#endorsement-input-el {
+    width: 280px;
+    height: 80px;
+    color: #65636E;
+    background-color: #3E3C4D;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-family: "Inter", sans-serif;
+}
+
+#address-input-container {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.address-inputs {
+    width: 132px;
+    height: 28px;
+    color: #65636E;
+    background-color: #3E3C4D;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    line-height: 28px;
+}
+
+#publish-btn {
+    height: 48px;
+    width: 304px;
+    color: #141B27;
+    background-color: #28A8F0;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    line-height: 48px;
+}
+
+#publish-btn:hover {
+    background-color: #084B72;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+    padding: 0;
+    justify-content: center;
+}
+
+ul li {
+    color: #141B27;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    width: 280px;
+    padding: 12px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+h4, p {
+    margin: 8px 0px;
+}
